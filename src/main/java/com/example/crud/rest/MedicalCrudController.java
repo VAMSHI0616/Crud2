@@ -67,7 +67,7 @@ public class MedicalCrudController{
 
     @GetMapping("/apitest")
     public Person getApi(@RequestParam String name){
-        return restTemplate.getForObject("https://api.agify.io/?name=Kranthi", Person.class);
+        return restTemplate.getForObject("https://api.agify.io/?name=Vamshi", Person.class);
 
     }
 
